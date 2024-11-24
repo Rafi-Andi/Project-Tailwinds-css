@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="z-[9999] fixed top-0 right-0 left-0 mb-6 leading-1">
+        <div class="bg-blue-900 w-full p-[1px] lin">
+            <h1 class="text-center text-gray-200 text-xl font-bold md:text-2xl">Layanan Pengaduan <br> <span class="text-yellow-500"> Karang Taruna </span> </h1>
+        </div>
+        <nav class="shadow-lg bg-blue-200">
+            <ul class="cursor-pointer flex justify-evenly gap-6 bg-bl w-full py-2 px-1 md:justify-evenly">
+                <li class="text-blue-700 font-bold text-[14px] border-b-2 border-transparent transition-all duration-[0.5s] hover:border-blue-300 md:text-xl cursor-pointer"><a href="index.html">Beranda</a></li>
+                <li class="text-blue-700 font-bold text-[14px] border-b-2 border-transparent transition-all duration-[0.5s] hover:border-blue-300 md:text-xl cursor-pointer"><a href="panduan.html">Panduan</a></li>
+                <li class="text-blue-700 font-bold text-[14px] border-b-2 border-transparent transition-all duration-[0.5s] hover:border-blue-300 md:text-xl cursor-pointer"><a href="pengaduan.html">Pengaduan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="w-full h-[120vh] py-10 px-10 bg-blue-100 flex flex-col items-center justify-center">
+        <!-- Judul Panduan -->
+        <div>
+            <h1 class="text-2xl font-bold text-blue-800 text-center mb-4">Panduan Pengiriman</h1>
+        </div>
+        
+        <!-- Video Panduan -->
+        <div class="w-full max-w-3xl">
+            <video src="./assets/langkah.mp4 " controls class="w-full h-[50vh] rounded-md shadow-lg"></video>
+        </div>
+        
+        <!-- Catatan -->
+        <div class="mt-6">
+            <p class="font-semibold text-blue-700 text-center">
+                Note: Ikuti langkah-langkah di atas untuk pengiriman pengaduan dengan benar.
+            </p>
+        </div>
+    </section>
+    
+    
+    <footer class="bg-blue-900 py-4 text-blue-300">
+        <!-- Informasi Media Sosial -->
+        <div class="flex flex-col text-center gap-4 md:flex-row justify-around">
+            <div>
+                <h2 class="font-semibold hover:text-blue-700 transition-colors duration-300">Instagram : @crewertepitu</h2>
+                <h2 class="font-semibold hover:text-blue-700 transition-colors duration-300">Tiktok : @crew_ertepitu</h2>
+            </div>
+            
+            <!-- Navigasi -->
+            <div>
+                <ul class="flex justify-center gap-4 md:flex-col">
+                    <li class="font-semibold">
+                        <a href="index.html" class="hover:text-yellow-500 transition-colors duration-300">Beranda</a>
+                    </li>
+                    <li class="font-semibold">
+                        <a href="panduan.html" class="hover:text-yellow-500 transition-colors duration-300">Panduan</a>
+                    </li>
+                    <li class="font-semibold">
+                        <a href="pengaduan.html" class="hover:text-yellow-500 transition-colors duration-300">Pengaduan</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <!-- Ikon Media Sosial -->
+            <div class="flex justify-center gap-4">
+                <div class="hover:scale-110 transition-transform duration-300">
+                    <a href="https://www.instagram.com/crew_ertepitu?igsh=d3VhMmtvb3QzcjNpon">
+                        <img src="./assets/logoInstagram.svg" alt="Instagram Logo" width="24">
+                    </a>
+                </div>
+                <div class="hover:scale-110 transition-transform duration-300">
+                    <a href="https://www.tiktok.com/@crew_ertepitu?_t=ZS-8reAv6p2xhH&_r=1">
+                        <img src="./assets/logoTiktok.svg" alt="Tiktok Logo" width="24">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="w-full bg-blue-300 mt-4 py-2 text-sm text-blue-900 text-center">
+            <p>&copy; 2024 Moch. Rafi Andi Prayitno</p>
+        </div>
+    </footer>
+</body>
+</html>
